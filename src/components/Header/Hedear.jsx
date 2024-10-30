@@ -20,7 +20,7 @@ import { NavLink } from 'react-router-dom';
 const Hedear = () => {
     return (
     <div style={{ display: 'flex', height: '100vh', overflow: 'scroll initial' }}>
-    <CDBSidebar textColor="#fff" backgroundColor="#333">
+    <CDBSidebar textColor="#fff" backgroundColor="black">
     <CDBSidebarHeader prefix={<i className="fa fa-bars fa-large"></i>}>
     <a href="/" className="text-decoration-none" style={{ color: 'inherit' }}>Sidebar</a>
     </CDBSidebarHeader>
@@ -28,6 +28,7 @@ const Hedear = () => {
     <CDBSidebarMenu>
        
         <img src="/images/helia.jpg" alt="" className={styles.img1}/>
+        <h5 className={styles.myname}>laya Alizadeh</h5>
     
     
     <NavLink exact to="/" activeClassName="activeClicked">
