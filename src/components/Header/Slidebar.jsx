@@ -1,6 +1,6 @@
 import styles from "./Hedear.module.css";
 import React from 'react';
-
+import * as Icon from 'react-bootstrap-icons';
 import { CDBSidebar, CDBSidebarContent, CDBSidebarFooter, CDBSidebarHeader, CDBSidebarMenu, CDBSidebarMenuItem } from 'cdbreact';
 import { NavLink } from 'react-router-dom';
 const Slidbar = () => {
@@ -15,7 +15,24 @@ const Slidbar = () => {
        
         <img src="/images/helia.jpg" alt="" className={styles.img1}/>
         <h5 className={styles.myname}>laya Alizadeh</h5>
-    
+        <div className={styles.Icons}>
+            <div className={styles.IconRadious}>
+            <Icon.Instagram size={20} color="#fff"/>
+            </div>
+            <div className={styles.IconRadious}>
+            <Icon.Facebook size={20} color="#fff"/>
+            </div>
+            <div className={styles.IconRadious}>
+            <Icon.Telegram size={20} color="#fff"/>
+            </div>
+            <div className={styles.IconRadious}>
+            <Icon.Linkedin size={20} color="#fff"/>
+            </div>
+            <div className={styles.IconRadious}>
+            <Icon.Github size={20} color="#fff"/>
+            </div>
+        
+        </div>
     
     <NavLink exact to="/" activeClassName="activeClicked">
     <CDBSidebarMenuItem icon="columns">Dashboard</CDBSidebarMenuItem>
