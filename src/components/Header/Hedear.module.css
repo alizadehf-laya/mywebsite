@@ -3,13 +3,9 @@
     grid-template-columns: auto auto;
     justify-content: center;
 }
-.left{
-    width: 300px;
-    height: 790px;
-    background-color: black;
-}
+
 .right{
-    width: 1052px;
+    width: 1080px;
     height: 790px;
     background-color: brown;
 }
