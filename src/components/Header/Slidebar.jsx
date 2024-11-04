@@ -35,25 +35,25 @@ const Slidbar = () => {
         </div>
     
     <NavLink exact to="/" activeClassName="activeClicked">
-    <CDBSidebarMenuItem icon="columns">Dashboard</CDBSidebarMenuItem>
+    <CDBSidebarMenuItem icon="home"className={styles.Cicon}><span className={styles.Ctext}>Home</span></CDBSidebarMenuItem >
     </NavLink>
     <NavLink exact to="/tables" activeClassName="activeClicked">
-    <CDBSidebarMenuItem icon="table">Tables</CDBSidebarMenuItem>
+    <CDBSidebarMenuItem icon="table"className={styles.Cicon}><span className={styles.Ctext}>Portfoio</span></CDBSidebarMenuItem>
     </NavLink>
     <NavLink exact to="/profile" activeClassName="activeClicked">
-    <CDBSidebarMenuItem icon="user">Profile page</CDBSidebarMenuItem>
+    <CDBSidebarMenuItem icon="user"className={styles.Cicon}><span className={styles.Ctext}>About</span></CDBSidebarMenuItem>
     </NavLink>
     <NavLink exact to="/analytics" activeClassName="activeClicked">
-    <CDBSidebarMenuItem icon="chart-line">Analytics</CDBSidebarMenuItem>
+    <CDBSidebarMenuItem icon="file"className={styles.Cicon}><span className={styles.Ctext}>Profile</span></CDBSidebarMenuItem>
     </NavLink>
-    <NavLink exact to="/hero404" target="_blank" activeClassName="activeClicked">
-    <CDBSidebarMenuItem icon="exclamation-circle">404 page</CDBSidebarMenuItem>
+    <NavLink exact to="/analytics" activeClassName="activeClicked">
+    <CDBSidebarMenuItem icon="phone"className={styles.Cicon}><span className={styles.Ctext}>Contact</span></CDBSidebarMenuItem>
     </NavLink>
     </CDBSidebarMenu>
     </CDBSidebarContent>
-    <CDBSidebarFooter style={{ textAlign: 'center' }}>
+    {/* <CDBSidebarFooter style={{ textAlign: 'center' }}>
     <div style={{ padding: '20px 5px' }}>Sidebar Footer</div>
-    </CDBSidebarFooter>
+    </CDBSidebarFooter> */}
     </CDBSidebar>
     </div>
     );

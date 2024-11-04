@@ -29,10 +29,24 @@
     
     text-align: center;  
 }
+.IconRadious:hover{
+background-color:rgb(0, 119, 255) ;
+}
 .Icons{
     display: flex;
     justify-content: center;
    gap: 8px;
-   
-    
+   margin-bottom: 30px;
+}
+.Cicon{
+    color: gray;
+}
+.Cicon:hover{
+color: rgb(0, 119, 255);
+}
+.Ctext{
+    color: gray;
+}
+.Ctext:hover{
+    color: #fff;
 }
