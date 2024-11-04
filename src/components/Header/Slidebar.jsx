@@ -1,7 +1,7 @@
 import styles from "./Hedear.module.css";
 import React from 'react';
 import * as Icon from 'react-bootstrap-icons';
-import { CDBSidebar, CDBSidebarContent, CDBSidebarFooter, CDBSidebarHeader, CDBSidebarMenu, CDBSidebarMenuItem } from 'cdbreact';
+import { CDBSidebar, CDBSidebarContent, CDBSidebarHeader, CDBSidebarMenu, CDBSidebarMenuItem } from 'cdbreact';
 import { NavLink } from 'react-router-dom';
 const Slidbar = () => {
     return (
@@ -37,16 +37,16 @@ const Slidbar = () => {
     <NavLink exact to="/" activeClassName="activeClicked">
     <CDBSidebarMenuItem icon="home"className={styles.Cicon}><span className={styles.Ctext}>Home</span></CDBSidebarMenuItem >
     </NavLink>
-    <NavLink exact to="/tables" activeClassName="activeClicked">
+    <NavLink exact to="/portfolio" activeClassName="activeClicked">
     <CDBSidebarMenuItem icon="table"className={styles.Cicon}><span className={styles.Ctext}>Portfoio</span></CDBSidebarMenuItem>
     </NavLink>
-    <NavLink exact to="/profile" activeClassName="activeClicked">
+    <NavLink exact to="/about" activeClassName="activeClicked">
     <CDBSidebarMenuItem icon="user"className={styles.Cicon}><span className={styles.Ctext}>About</span></CDBSidebarMenuItem>
     </NavLink>
-    <NavLink exact to="/analytics" activeClassName="activeClicked">
+    <NavLink exact to="/profile" activeClassName="activeClicked">
     <CDBSidebarMenuItem icon="file"className={styles.Cicon}><span className={styles.Ctext}>Profile</span></CDBSidebarMenuItem>
     </NavLink>
-    <NavLink exact to="/analytics" activeClassName="activeClicked">
+    <NavLink exact to="/contact" activeClassName="activeClicked">
     <CDBSidebarMenuItem icon="phone"className={styles.Cicon}><span className={styles.Ctext}>Contact</span></CDBSidebarMenuItem>
     </NavLink>
     </CDBSidebarMenu>
