@@ -10,7 +10,7 @@ const Hedear=()=>{
         <container className={styles.container}>
         
             <Slidbar/>
-        
+                    
             <img className={styles.right} src="images/me.jpg"/>
         </container>
 

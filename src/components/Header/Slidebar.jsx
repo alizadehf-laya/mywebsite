@@ -17,19 +17,19 @@ const Slidbar = () => {
         <h5 className={styles.myname}>laya Alizadeh</h5>
         <div className={styles.Icons}>
             <div className={styles.IconRadious}>
-            <Icon.Instagram size={20} color="#fff"/>
+            <Icon.Instagram size={18} color="#fff" style={{display:"inline-block"}}/>
             </div>
             <div className={styles.IconRadious}>
-            <Icon.Facebook size={20} color="#fff"/>
+            <Icon.Facebook size={18} color="#fff" />
             </div>
             <div className={styles.IconRadious}>
-            <Icon.Telegram size={20} color="#fff"/>
+            <Icon.Telegram size={18} color="#fff"/>
             </div>
             <div className={styles.IconRadious}>
-            <Icon.Linkedin size={20} color="#fff"/>
+            <Icon.Linkedin size={18} color="#fff"/>
             </div>
             <div className={styles.IconRadious}>
-            <Icon.Github size={20} color="#fff"/>
+            <Icon.Github size={18} color="#fff"/>
             </div>
         
         </div>
