@@ -5,11 +5,11 @@ import { CDBSidebar, CDBSidebarContent, CDBSidebarFooter, CDBSidebarHeader, CDBS
 import { NavLink } from 'react-router-dom';
 const Slidbar = () => {
     return (
-    <div style={{ display: 'flex', height: '100vh', overflow: 'scroll initial' }}>
+    <div style={{ display: 'flex', height: '100vh', overflow: 'scroll initial', position:"absolute",  zIndex:"1"}}>
     <CDBSidebar textColor="#fff" backgroundColor="#1c1a1b">
-    {/* <CDBSidebarHeader prefix={<i className="fa fa-bars fa-large"></i>}>
+    <CDBSidebarHeader prefix={<i className="fa fa-bars fa-large"></i>}>
     <a href="/" className="text-decoration-none" style={{ color: 'inherit' }}>Sidebar</a>
-    </CDBSidebarHeader> */}
+    </CDBSidebarHeader>
     <CDBSidebarContent className="sidebar-content">
     <CDBSidebarMenu>
        
