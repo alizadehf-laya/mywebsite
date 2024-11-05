@@ -1,0 +1,9 @@
+.main{
+    display: grid;
+    grid-template-columns: auto auto;   
+}
+.right{
+    width: 1345px;
+    height: 100vh;    
+    position: relative;
+}
