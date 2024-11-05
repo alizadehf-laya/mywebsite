@@ -55,15 +55,42 @@ const About=()=>{
             </div>
             </div>       
         </div >
-        {/* <div style={{backgroundColor:"lightblue"}}>
-        <h2>Skills</h2>
-        <div style={{display:"grid",gridTemplateColumns:"auto auto"}}>
-          <WithLabelExample now="100"/>  
-          <WithLabelExample now="50"/>  
-          <WithLabelExample now="15"/>  
-          <WithLabelExample now="45"/>  
+        <div>
+            <div className={styles.AboutFooter}>
+            <h2>Skills</h2>
+        <hr style={{width:"100px", borderWidth:"5px",color:"rgb(0, 119, 255)"}}/>
+        <h6>The grate of my talents are:</h6>
+        <div className={styles.bar}>
+            <div className="b1">
+                <p className={styles.text2}>HTML,CSS</p>
+                <WithLabelExample now="80"/>
+            </div>
+            <div className="b1">
+                <p className={styles.text2}>javascript</p> 
+                <WithLabelExample now="80"/>
+            </div>
+            <div className="b1">
+                <p className={styles.text2}>React</p>
+                <WithLabelExample now="70"/> 
+            </div>
+            <div className="b1">
+                <p className={styles.text2}>Sass.Ajax,Jason</p>
+                <WithLabelExample now="90"/>
+            </div>
+            <div className="b1">
+                <p className={styles.text2}>Php,C#,Data structure</p>
+                <WithLabelExample now="50"/>
+            </div>
+            <div className="b1">
+                <p className={styles.text2}>English</p>
+                <WithLabelExample now="100"/>
+            </div>
+ 
+        
+        </div> 
+            </div>
+       
         </div>
-        </div> */}
 
        
             </div> 
