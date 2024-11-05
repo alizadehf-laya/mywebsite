@@ -3,13 +3,14 @@ import React from 'react';
 import * as Icon from 'react-bootstrap-icons';
 import { CDBSidebar, CDBSidebarContent, CDBSidebarHeader, CDBSidebarMenu, CDBSidebarMenuItem } from 'cdbreact';
 import { NavLink } from 'react-router-dom';
+
 const Slidbar = () => {
     return (
     <div style={{ display: 'flex', height: '100vh', overflow: 'scroll initial', position:"absolute",  zIndex:"1"}}>
     <CDBSidebar textColor="#fff" backgroundColor="#1c1a1b">
-    <CDBSidebarHeader prefix={<i className="fa fa-bars fa-large"></i>}>
+    {/* <CDBSidebarHeader prefix={<i className="fa fa-bars fa-large"></i>}>
     <a href="/" className="text-decoration-none" style={{ color: 'inherit' }}>Sidebar</a>
-    </CDBSidebarHeader>
+    </CDBSidebarHeader> */}
     <CDBSidebarContent className="sidebar-content">
     <CDBSidebarMenu>
        

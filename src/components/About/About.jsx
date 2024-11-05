@@ -1,5 +1,6 @@
 import { Container } from "react-bootstrap";
 import { Grid } from "react-bootstrap-icons";
+import WithLabelExample from "../About/Progressbar";
 
 const About=()=>{
     return(
@@ -48,11 +49,17 @@ const About=()=>{
             </div>
         </div>
             </div>       
-        </Container>
+        </Container >
+        <div style={{backgroundColor:"lightblue"}}>
         <h2>Skills</h2>
-        <div>
-            
+        <div style={{display:"grid",gridTemplateColumns:"auto auto"}}>
+          <WithLabelExample now="100"/>  
+          <WithLabelExample now="50"/>  
+          <WithLabelExample now="15"/>  
+          <WithLabelExample now="45"/>  
         </div>
+        </div>
+
        
         </>
     )
