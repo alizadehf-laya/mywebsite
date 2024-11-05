@@ -9,7 +9,8 @@ const About=()=>{
         <div className={styles.main}>
             <div className={styles.left}><Slidbar/></div>
             <div className={styles.right}>
-                <h2>about me</h2>
+                <h2 style={{marginTop:"50px",padding:"10px"}}>About </h2>
+                <hr style={{width:"100px", borderWidth:"5px",color:"rgb(0, 119, 255)"}}/>
                 <h7>I'm laya alizadeh,a web developer,with 2years of experience, who is capable of coding  and designing pages in best way,
                 <br/>I'm master in HTML ,CSS ,JAVASCRIPT ,REACT ,SASS ,BOOTSTRAP ,AJAX ,JASON .<br/>I'm also familiar with C# ,PHP ,DATA STRUCTURE.
                 <br/> As an entrovert person i enjoy working in groups and entosiastic learning new things.
@@ -17,8 +18,8 @@ const About=()=>{
             <div className={styles.Container}>
                 <img src="images/about.jpg" alt="my pic" style={{width:"300px",height:"300px"}}></img>
             <div >
-            <h2>Information</h2>
-            <div style={{display:"Grid" , gridTemplateColumns:"auto auto"}}>
+            <h3 style={{padding:"20px"}}> Information</h3>
+            <div className={styles.text}>
                 <div style={{display:"flex"}}>
                     <p style={{fontWeight:"bolder"}}>Birthday:</p>
                     <p>21 septamber 1987</p>
