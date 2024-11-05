@@ -2,9 +2,12 @@ import { Container } from "react-bootstrap";
 import { Grid } from "react-bootstrap-icons";
 import WithLabelExample from "../About/Progressbar";
 import { Link } from "react-router-dom";
+import Slidbar from "../Header/Slidebar";
+import styles from "./About.module.css"
 const About=()=>{
     return(
-        <>
+        <div className={styles.main}>
+            <Slidbar/>
         <h2>about me</h2>
         <h7>I'm laya alizadeh,a web developer,with 2years of experience, who is capable of coding  and designing pages in best way,
         <br/>I'm master in HTML ,CSS ,JAVASCRIPT ,REACT ,SASS ,BOOTSTRAP ,AJAX ,JASON .<br/>I'm also familiar with C# ,PHP ,DATA STRUCTURE.
@@ -61,7 +64,7 @@ const About=()=>{
         </div>
 
        
-        </>
+        </div>
     )
 }
 export default About;
