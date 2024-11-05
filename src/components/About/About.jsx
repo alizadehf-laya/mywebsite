@@ -7,7 +7,7 @@ import styles from "./About.module.css"
 const About=()=>{
     return(
         <div className={styles.main}>
-            <div className={styles.left}><Slidbar/></div>
+            <div className={styles.left}><Slidbar height={"140vh"}/></div>
             <div className={styles.right}>
                 <h2 style={{marginTop:"50px",padding:"10px"}}>About </h2>
                 <hr style={{width:"100px", borderWidth:"5px",color:"rgb(0, 119, 255)"}}/>

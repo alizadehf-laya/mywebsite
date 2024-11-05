@@ -6,9 +6,9 @@ import { NavLink } from 'react-router-dom';
 import{Link} from "react-router-dom";
 
 
-const Slidbar = () => {
+const Slidbar = (props) => {
     return (
-    <div style={{ display: 'flex', height: '100vh', overflow: 'scroll initial', position:"absolute",  zIndex:"1"}}>
+    <div style={{ display: 'flex', height:`${props.height}`, overflow: 'scroll initial', position:"absolute",  zIndex:"1"}}>
     <CDBSidebar textColor="#fff" backgroundColor="#1c1a1b">
     {/* <CDBSidebarHeader prefix={<i className="fa fa-bars fa-large"></i>}>
     <a href="/" className="text-decoration-none" style={{ color: 'inherit' }}>Sidebar</a>
