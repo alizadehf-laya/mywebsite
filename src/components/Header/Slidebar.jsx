@@ -3,6 +3,7 @@ import React from 'react';
 import * as Icon from 'react-bootstrap-icons';
 import { CDBSidebar, CDBSidebarContent, CDBSidebarHeader, CDBSidebarMenu, CDBSidebarMenuItem } from 'cdbreact';
 import { NavLink } from 'react-router-dom';
+import{Link} from "react-router-dom";
 
 const Slidbar = () => {
     return (
@@ -36,19 +37,19 @@ const Slidbar = () => {
         </div>
     
     <NavLink exact to="/" activeClassName="activeClicked">
-    <CDBSidebarMenuItem icon="home"className={styles.Cicon}><span className={styles.Ctext}>Home</span></CDBSidebarMenuItem >
+    <CDBSidebarMenuItem icon="home"className={styles.Cicon}><Link to="/"><span className={styles.Ctext}>Home</span></Link></CDBSidebarMenuItem >
     </NavLink>
     <NavLink exact to="/portfolio" activeClassName="activeClicked">
-    <CDBSidebarMenuItem icon="table"className={styles.Cicon}><span className={styles.Ctext}>Portfoio</span></CDBSidebarMenuItem>
+    <CDBSidebarMenuItem icon="table"className={styles.Cicon}><Link to="/portfolio"><span className={styles.Ctext}>Portfolio</span></Link></CDBSidebarMenuItem>
     </NavLink>
     <NavLink exact to="/about" activeClassName="activeClicked">
-    <CDBSidebarMenuItem icon="user"className={styles.Cicon}><span className={styles.Ctext}>About</span></CDBSidebarMenuItem>
+    <CDBSidebarMenuItem icon="user"className={styles.Cicon}><Link to="/about"><span className={styles.Ctext}>About</span></Link></CDBSidebarMenuItem>
     </NavLink>
     <NavLink exact to="/profile" activeClassName="activeClicked">
-    <CDBSidebarMenuItem icon="file"className={styles.Cicon}><span className={styles.Ctext}>Profile</span></CDBSidebarMenuItem>
+    <CDBSidebarMenuItem icon="file"className={styles.Cicon}><Link to="/profile"><span className={styles.Ctext}>Profile</span></Link></CDBSidebarMenuItem>
     </NavLink>
     <NavLink exact to="/contact" activeClassName="activeClicked">
-    <CDBSidebarMenuItem icon="phone"className={styles.Cicon}><span className={styles.Ctext}>Contact</span></CDBSidebarMenuItem>
+    <CDBSidebarMenuItem icon="phone"className={styles.Cicon}><Link to="/contact"><span className={styles.Ctext}>Contact</span></Link></CDBSidebarMenuItem>
     </NavLink>
     </CDBSidebarMenu>
     </CDBSidebarContent>

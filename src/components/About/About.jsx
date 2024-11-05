@@ -1,7 +1,7 @@
 import { Container } from "react-bootstrap";
 import { Grid } from "react-bootstrap-icons";
 import WithLabelExample from "../About/Progressbar";
-
+import { Link } from "react-router-dom";
 const About=()=>{
     return(
         <>
