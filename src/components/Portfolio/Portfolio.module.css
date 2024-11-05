@@ -1,9 +1,16 @@
 .main{
     display: grid;
-    grid-template-columns: auto auto;   
+    grid-template-columns: auto auto; 
+
 }
 .right{
-    width: 1345px;
+    width: 1050px;
     height: 100vh;    
     position: relative;
+}
+.left{
+    width: 270px;
+    height: 100vh;
+    position: sticky;
+
 }
