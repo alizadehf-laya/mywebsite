@@ -1,0 +1,15 @@
+.main{
+    display: grid;
+    grid-template-columns: auto auto;  
+}
+.right{
+    width: 1050px;
+    height: 100vh;
+}
+.left{
+    width: 270px;
+    height: 100vh;
+}
+.Container{
+    display: flex;
+}
