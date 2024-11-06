@@ -2,6 +2,7 @@ import styles from "./Portfolio.module.css"
 import Slidbar from "../Header/Slidebar";
 import CardPorto from "./CardPorto";
 import CardB from "./CardB";
+import Cardleft from "./Cardleft";
 
 
 const Portfolio=()=>{
@@ -23,7 +24,7 @@ const Portfolio=()=>{
                 <div className="part1">
                 {CardB.map(createCard)}
                 </div>
-                <div className="part2"></div>
+                <div className="part2"><Cardleft/></div>
             </div>
 
         </div>
