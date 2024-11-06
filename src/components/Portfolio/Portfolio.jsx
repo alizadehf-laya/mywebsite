@@ -11,7 +11,7 @@ const Portfolio=()=>{
             key={CardB.key}
             Title={CardB.Title}
             subtitle={CardB.subtitle}
-            Text={CardB.Text}
+            Text={CardB.Text}git
             />
         )
     }
