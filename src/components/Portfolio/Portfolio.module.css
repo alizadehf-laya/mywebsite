@@ -5,13 +5,19 @@
 }
 .right{
     width: 1050px;
-    height: 100vh;    
-    position: relative;
+    height: 100vh; 
     display: flex;
+    overflow: hidden;
 }
 .left{
     width: 270px;
-    height: 100vh;
+ 
     position: sticky;
-
+}
+.list1{
+    margin-top: 20px;
+}
+.rightMain{
+    height: 100vh;
+    overflow: hidden;
 }

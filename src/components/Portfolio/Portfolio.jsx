@@ -3,7 +3,7 @@ import Slidbar from "../Header/Slidebar";
 import CardPorto from "./CardPorto";
 import CardB from "./CardB";
 import Cardleft from "./Cardleft";
-
+import Text1 from "./Text"
 
 const Portfolio=()=>{
     const createCard =(CardB)=>{
@@ -18,14 +18,19 @@ const Portfolio=()=>{
     }
     return(
         <>
+
        <div className={styles.main}>
             <div className={styles.left}><Slidbar height={"100vh"}/></div>
+            <div className={styles.rightMain}>
+            <Text1/>
             <div className={styles.right}>
-                <div className="part1">
+                <div className={styles.part1}>
                 {CardB.map(createCard)}
                 </div>
-                <div className="part2"><Cardleft/></div>
+                <div className={styles.part2}><Cardleft/></div>
             </div>
+            </div>
+
 
         </div>
         </>
