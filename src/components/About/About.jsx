@@ -10,15 +10,15 @@ const About=()=>{
             <div className={styles.left}><Slidbar height={"140vh"}/></div>
             <div className={styles.right}>
                 <h2 style={{marginTop:"50px",padding:"10px"}}>About </h2>
-                <hr style={{width:"100px", borderWidth:"5px",color:"rgb(0, 119, 255)"}}/>
+                <hr style={{width:"150px", borderWidth:"5px",color:"rgb(0, 119, 255)"}}/>
                 <h7> I'm laya Alizadeh.i'm intrested in web programming.my journey shaped by a background in social science 
                     and passion for fashion and designe,has ignited my curiosity for the world of marketing,technology and
                     <br/> computer science my academic journey,developed a strong
                      foundation in undrestanding human behavior and<br/> social dynamics and 
-                     learned the value of teamwork and comuunity service.Adittionaly participating in group searches led me to
+                     learned the value of teamwork and comuunity service.Adittionaly participating in group <br/>searches led me to
                       the world of technology where i recognized the power of digital platforms to connect with a global
                        audience.this intersection of my passion for business and social community with the world of technology 
-                       led me to discover to the potential of digital advertising and computer science.
+                       <br/>led me to discover to the potential of digital advertising and computer science.Right now i'm working as frontend developer and i enjoy working in this major.
                      
                 </h7>
             <div className={styles.Container}>
