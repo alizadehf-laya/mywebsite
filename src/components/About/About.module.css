@@ -5,11 +5,13 @@
 .right{
     width: 1050px;
     height: 100vh;
+    overflow: auto;
 }
 .left{
     width: 270px;
     height: 100vh;
     position: sticky;
+    overflow: hidden;
 
 }
 .Container{

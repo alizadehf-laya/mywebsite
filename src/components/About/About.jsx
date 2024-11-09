@@ -78,7 +78,7 @@ const About=()=>{
                 <WithLabelExample now="90"/>
             </div>
             <div className="b1">
-                <p className={styles.text2}>Php,C#,Data structure</p>
+                <p className={styles.text2}>Php,C#,SQL SERVER</p>
                 <WithLabelExample now="50"/>
             </div>
             <div className="b1">
