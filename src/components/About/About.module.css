@@ -6,6 +6,7 @@
     width: 1050px;
     height: 100vh;
     overflow: auto;
+    overflow-x: hidden;
 }
 .left{
     width: 270px;
