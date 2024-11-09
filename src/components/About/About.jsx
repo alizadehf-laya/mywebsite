@@ -11,9 +11,15 @@ const About=()=>{
             <div className={styles.right}>
                 <h2 style={{marginTop:"50px",padding:"10px"}}>About </h2>
                 <hr style={{width:"100px", borderWidth:"5px",color:"rgb(0, 119, 255)"}}/>
-                <h7>I'm laya alizadeh,a web developer,with 2years of experience, who is capable of coding  and designing pages in best way,
-                <br/>I'm master in HTML ,CSS ,JAVASCRIPT ,REACT ,SASS ,BOOTSTRAP ,AJAX ,JASON .<br/>I'm also familiar with C# ,PHP ,DATA STRUCTURE.
-                <br/> As an entrovert person i enjoy working in groups and entosiastic learning new things.
+                <h7> I'm laya Alizadeh.i'm intrested in web programming.my journey shaped by a background in social science 
+                    and passion for fashion and designe,has ignited my curiosity for the world of marketing,technology and
+                    <br/> computer science my academic journey,developed a strong
+                     foundation in undrestanding human behavior and<br/> social dynamics and 
+                     learned the value of teamwork and comuunity service.Adittionaly participating in group searches led me to
+                      the world of technology where i recognized the power of digital platforms to connect with a global
+                       audience.this intersection of my passion for business and social community with the world of technology 
+                       led me to discover to the potential of digital advertising and computer science.
+                     
                 </h7>
             <div className={styles.Container}>
                 <img src="images/about.jpg" alt="my pic" style={{width:"300px",height:"300px"}}></img>
@@ -41,12 +47,12 @@ const About=()=>{
                     <p>36</p>
                 </div>
                 <div style={{display:"flex"}}>
-                    <p style={{fontWeight:"bolder"}}>Age:</p>
-                    <p>36</p>
+                    <p style={{fontWeight:"bolder"}}>More ability</p>
+                    <p>Git.Github</p>
                 </div>
                 <div style={{display:"flex"}}>
                     <p style={{fontWeight:"bolder"}}>Degree:</p>
-                    <p>Master</p>
+                    <p>  2 Master in<br/> computer science <br/>and socialogy</p>
                 </div>
                 <div style={{display:"flex"}}>
                     <p style={{fontWeight:"bolder"}}>Email:</p>
