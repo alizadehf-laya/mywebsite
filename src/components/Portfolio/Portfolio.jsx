@@ -37,27 +37,27 @@ const Portfolio=()=>{
         <h6>The grate of my talents are:</h6>
         <div className={styles.bar}>
             <div className="b1">
-                <p className={styles.text2}>HTML,CSS</p>
+                <p className={styles.text2}>HTML,CSS,JAVASCRIPT</p>
                 <WithLabelExample now="80"/>
             </div>
             <div className="b1">
-                <p className={styles.text2}>javascript</p> 
+                <p className={styles.text2}>GIT,GITHUB</p> 
                 <WithLabelExample now="80"/>
             </div>
             <div className="b1">
-                <p className={styles.text2}>React</p>
+                <p className={styles.text2}>REACT</p>
                 <WithLabelExample now="70"/> 
             </div>
             <div className="b1">
-                <p className={styles.text2}>Sass.Ajax,Jason</p>
+                <p className={styles.text2}>SASS.AJAX,JASON</p>
                 <WithLabelExample now="90"/>
             </div>
             <div className="b1">
-                <p className={styles.text2}>Php,C#,SQL SERVER</p>
+                <p className={styles.text2}>PHP,C#,SQL SERVER</p>
                 <WithLabelExample now="50"/>
             </div>
             <div className="b1">
-                <p className={styles.text2}>English</p>
+                <p className={styles.text2}>ENGLISH</p>
                 <WithLabelExample now="100"/>
             </div>
  
