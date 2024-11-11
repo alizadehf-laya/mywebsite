@@ -1,5 +1,5 @@
 import ProgressBar from 'react-bootstrap/ProgressBar';
-import About from './About';
+import About from '../About/About';
 
 function WithLabelExample(props) {
   const now = 40;
