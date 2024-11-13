@@ -1,5 +1,5 @@
 .rightMain{
-    background-color: rgb(230, 243, 248);
+    background-color: rgb(235, 240, 241);
     overflow: scroll;
     height: 100vh;
     width: 1050px;
@@ -11,5 +11,9 @@
     overflow: hidden;
     border: 2px solid green;
     float: left;
+  
 
+}
+.Cardsright{
+    display: flex
 }

@@ -4,14 +4,14 @@ import Slidbar from "../Header/Slidebar";
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 
-function LeftContact() {
+function LeftContact () {
   return (
-    <Container fluid>   
+    <div >   
 
-        <Col sm={4}><Slidbar height={"100vh"}/></Col>
+      <Slidbar height={"100vh"}/>
       
   
-    </Container>
+    </div>
   );
 }
 
