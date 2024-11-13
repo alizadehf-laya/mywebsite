@@ -1,12 +1,12 @@
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
-
+import IconAdress from './IconAdress';
 function CardContact() {
   return (
     <Card style={{ width: '16rem',  margin:"20px", border:"none"}}>
       <Card.Img variant="top" src="images/map.jpg" />
       <Card.Body>
-        <Card.Title>Adress</Card.Title>
+        <Card.Title style={{display:"flex"}}><IconAdress />Adress</Card.Title>
         <Card.Text>
             number25,hashemieh Blv,mashhad,khorasanRazavi Proviance,Iran
         </Card.Text>
