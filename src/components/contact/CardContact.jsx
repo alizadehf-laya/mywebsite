@@ -8,19 +8,19 @@ function CardContact() {
     <Card style={{ width: '16rem',  margin:"20px", border:"none"}}>
       <Card.Img variant="top" src="images/map.jpg" />
       <Card.Body>
-        <Card.Title style={{display:"flex"}}><IconAdress />Adress</Card.Title>
+        <Card.Title style={{display:"flex" ,gap:"5px"}}><IconAdress />Adress</Card.Title>
         <Card.Text>
             number25,hashemieh Blv,mashhad,khorasanRazavi Proviance,Iran
         </Card.Text>
       </Card.Body>
       <Card.Body>
-        <Card.Title  style={{display:"flex"}}> <CallLucide/>Call Us</Card.Title>
+        <Card.Title  style={{display:"flex",gap:"5px"}}> <CallLucide/>Call Us</Card.Title>
         <Card.Text>
             00989156501353
         </Card.Text>
       </Card.Body>
       <Card.Body>
-        <Card.Title  style={{display:"flex"}}><EmailLucide/>Email Us</Card.Title>
+        <Card.Title  style={{display:"flex",gap:"5px"}}><EmailLucide/>Email Us</Card.Title>
         <Card.Text>
             layaalizadehf@gmail.com
         </Card.Text>

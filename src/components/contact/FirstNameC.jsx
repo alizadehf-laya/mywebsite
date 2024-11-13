@@ -6,7 +6,7 @@ import Row from 'react-bootstrap/Row';
 function FirstNameC() {
   return (
     <Form >
-      <Row className="mb-3" >
+      <Row className="mb-2" >
         <Form.Group as={Col} controlId="formGridName" >
           <Form.Label>Name</Form.Label>
           <Form.Control type="Name" placeholder="Enter your name" />
@@ -18,12 +18,12 @@ function FirstNameC() {
         </Form.Group>
       </Row>
 
-      <Form.Group className="mb-3" controlId="formGridSubject">
+      <Form.Group className="mb-2" controlId="formGridSubject">
         <Form.Label>Subject</Form.Label>
         <Form.Control placeholder="" />
       </Form.Group>
 
-      <Form.Group className="mb-3" controlId="formGridTextara">
+      <Form.Group className="mb-2" controlId="formGridTextara">
         <Form.Label>Message</Form.Label>
         <Form.Control placeholder=""  style={{width:"350px", height:"400px"}} />
       </Form.Group>
