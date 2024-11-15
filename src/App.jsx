@@ -1,6 +1,4 @@
 import Hedear from "./components/Header/Hedear"
-import styles from "./components/Header/Hedear.module.css"
-import Slidbar from "./components/Header/Slidebar";
 import About from "./components/About/About";
 import Contact from "./components/contact/Contact";
 import Profile from "./components/profile/Profile";
