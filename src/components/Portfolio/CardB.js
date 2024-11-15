@@ -2,7 +2,7 @@ const CardB=[
     {   key:1,
         Title:"Summary",
         subtitle:"Frontend Developer",
-        Text:" enthusiastic in learning new things,participated in teamgroups ",
+        Text:" graduating in 2 majors and attending some courses makes me talented and my intrests helped me to be in progress... ",
    
     },
     {
